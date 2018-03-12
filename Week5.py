@@ -1,6 +1,7 @@
 x = input('Define the number')
 if x == 5:
     print('Is 5')
-    print('Still 5')
+if x < 5:
+    print('Less than 5')
 else:
-    print('Afterwards 5')
+    print('More than 5')
