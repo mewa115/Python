@@ -10,7 +10,7 @@ if h > 40:
    sp = float (sp)
    oh = h-40
    oh = float (oh)
-   op = r*oh*145.5
+   op = r*oh*1.5
    op = float (op)
    gp = op+sp
    gp = float (gp)

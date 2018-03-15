@@ -10,6 +10,6 @@ print(y)
 y=y+1
 
 k=5
-print(k>=5) # equal or bigger
+print(k<=5) # equal or bigger
 print(k!=4) # not equal
 print(k==7) # this is asking computer if k is 5. Simple = is the same as ← in APL
