@@ -1,4 +1,4 @@
-fam = ['nik', 1.80, 'mom', 1.62, 'ler', 1.64, 'dad', 1.75]
+fam = ['nik', 1.80, 'mom', 1.62, 'ler', 1.64, 'dad', 1.75, 'nik', 1.80]
 print(fam)
 
 fam1 = [['nik', 1.80],
@@ -57,7 +57,26 @@ print(fam)
 
 fam4 = [1.3, 2.05, 1.86, 1.70]
 zz = max(fam4)
-print(zz)
+zz = float(zz)
+print(round(zz, 1))
 
+kk = 'what the car?'
+print(len(kk))
 
+mm = complex(1/3)
+print(mm)
 
+fam5 = sorted(fam4, reverse=True)  # Sorting apply
+print(fam5)
+
+# Object has a type. Object 5 has a type str
+# Methods are the functions that belong to objects
+# Example of methods: str--> capitalize(), replace(), float --> bit_length(), conjugate(), list --> index(), count()
+# Specific methods are applied to different types,
+
+fam = fam + ['nik', 1.80]
+print(fam.index('ler'))  # fam is an object with the type of list. Index is a method. As a result I will receive an element with index 4
+print(fam.count('nik'))  # count how many times I have nik in the list fam
+
+mom = 'svet'
+print(mom.replace('svet', 'mom'))
