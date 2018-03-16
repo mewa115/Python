@@ -34,6 +34,30 @@ print(fam)
 fam = fam + ['sosed', 1.90]
 print(fam)
 
-del(fam[-1])  # delete last element
-del(fam[-1])  # delete last element once again
+# del(fam[-1])   # delete last element
+# del(fam[-1])  # delete last element once again
+# del (fam[-1]); del (fam[-1])  # separate with semicolon so that to execute more than one command on a single line
+del(fam[-2:])  # delete from -2 field till the end
+print('Updated list:', fam)
+
+# When you make one list equal to another you basically coping reference to the list but no the values in the list
+fam2 = ['yaha', 1.9, 'val', 2.0, 'mar', 1.85, 'svet', 1.8]
+fam2 = fam
+fam2[1] = 1.92
+print(fam2)  # therefore, here not yaha = 1.92 but nikita is 1.92 because nikita in the list of fam
+
+fam2 = list(fam)  # this the copy of the list
+fam2 = fam[:]  # this is the copy of the list as well
+
+fam2[1] = 1.79
+fam[1] = 1.8
+
+print(fam2)
 print(fam)
+
+fam4 = [1.3, 2.05, 1.86, 1.70]
+zz = max(fam4)
+print(zz)
+
+
+
