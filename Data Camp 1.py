@@ -143,12 +143,17 @@ print(dist) # test
 
 import numpy as np
 
+height = [1.73, 1.68]
+weight = [74, 80]
 
 np_height = np.array(height)
-np_height
+print(np_height)
 
 np_weight = np.array(weight)
-np_weight
+print(np_weight)
+
+bmi = np_weight/np_height ** 2  # it could be done it the arrays contain the values of the single types, i.e. all are str or int
+print(bmi)
 
 
 
