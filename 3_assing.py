@@ -18,6 +18,4 @@ print(bigword, bigcount)
 
 
 quit()
-quit()
-x=2
 
