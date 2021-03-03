@@ -8,6 +8,8 @@ def computepay(h,r):
       gp = h*r
    return gp
 
+print('Hello')
+
 hrs = input("Enter Hours:")
 rate = input("Enter Rate:")
 try:
